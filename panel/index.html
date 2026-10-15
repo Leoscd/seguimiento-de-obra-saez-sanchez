@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Seguimiento de Obras</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+<header class="top">
+  <div id="aviso-demo" class="demo-aviso" hidden>Demo con datos ficticios. Lo que cargues queda solo en este navegador. <button id="reiniciar-demo" class="btn mini plano" type="button">Volver a los datos de ejemplo</button></div>
+  <div class="top-in">
+    <a class="marca" href="#tablero"><span class="logo">DT</span><span>Seguimiento de obras<small>Coordinación de obras</small></span></a>
+    <nav class="nav" aria-label="Secciones">
+      <a href="#tablero" data-ruta="tablero">Tablero</a>
+      <a href="#alertas" data-ruta="alertas">Alertas<span id="cuenta-crit" class="cuenta" hidden></span></a>
+      <a href="#dts" data-ruta="dts">DT</a>
+      <a href="#informes" data-ruta="informes">Informes</a>
+      <a href="#cargar" data-ruta="cargar">Cargar</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="vista"><p class="cargando">Cargando obras…</p></main>
+<script src="assets/config.js"></script>
+<script src="assets/api.js"></script>
+<script src="assets/reglas.js"></script>
+<script src="assets/demo.js"></script>
+<script src="assets/graficos.js"></script>
+<script src="assets/formularios.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
